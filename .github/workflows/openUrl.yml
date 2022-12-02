@@ -35,8 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-    name: "Hit a webhook"
+      - name: "Hit a webhook"
  
-    name: REST API with curl
-      run: |
-        curl -X GET "https://smartproductionlibdev.corp.knorr-bremse.com/Thingworx/Things/KBKPIThingWorxDatabaseThing/Services/GetShiftDataForEventChart?Machine=KBLIBFP-BayonetMachineThing&KPIName=OutputIO"
+        run: |
+           curl -X GET "https://smartproductionlibdev.corp.knorr-bremse.com/Thingworx/Things/KBKPIThingWorxDatabaseThing/Services/GetShiftDataForEventChart?Machine=KBLIBFP-BayonetMachineThing&KPIName=OutputIO"
