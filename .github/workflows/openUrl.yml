@@ -38,4 +38,4 @@ jobs:
       - name: "Hit a webhook"
  
         run: |
-           curl -X GET "https://smartproductionlibdev.corp.knorr-bremse.com/Thingworx/Things/KBKPIThingWorxDatabaseThing/Services/GetShiftDataForEventChart?Machine=KBLIBFP-BayonetMachineThing&KPIName=OutputIO"
+           curl -X GET "https://www.ptc.com/"
